@@ -4,6 +4,12 @@
   "description": "Modules can be used across difference Qt based applications.",
   "homepage": "https://github.com/qtapp/common",
   "dependencies": [
+    "minizip",
+    {
+      "name": "qtapp",
+      "host": true
+    },
+    "spdlog",
     {
       "name": "vcpkg-cmake",
       "host": true
@@ -11,13 +17,6 @@
     {
       "name": "vcpkg-cmake-config",
       "host": true
-    },
-    {
-      "name": "qtapp",
-      "host": true
-    },
-    "spdlog",
-    "minizip"
+    }
   ]
 }
-
