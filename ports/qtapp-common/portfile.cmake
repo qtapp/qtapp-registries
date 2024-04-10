@@ -1,7 +1,7 @@
 vcpkg_from_git(
   OUT_SOURCE_PATH SOURCE_PATH
   URL https://github.com/qtapp/common.git
-  REF 0ad796126337c2c2ca71b442728b4a8c27b06665 
+  REF 25a4aea5acba4e303390d6a6b9824714142ba912
   HEAD_REF main
 )
 
